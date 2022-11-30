@@ -7,7 +7,9 @@ class SixthView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(top: 60, bottom: 30),
+      padding: const EdgeInsets.only(
+        top: 140,
+      ),
       child: Container(
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
