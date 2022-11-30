@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class LightFast extends StatelessWidget {
-  LightFast({
+  const LightFast({
     Key? key,
     required this.text1,
     required this.text2,
@@ -22,7 +22,7 @@ class LightFast extends StatelessWidget {
               fontWeight: FontWeight.bold),
         ),
         Padding(
-          padding: EdgeInsets.symmetric(
+          padding: const EdgeInsets.symmetric(
             vertical: 10,
           ),
           child: Text(
